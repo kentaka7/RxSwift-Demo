@@ -22,6 +22,7 @@
 		C1AD36BD20BDC3ED008D4AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AD36BB20BDC3ED008D4AB2 /* Main.storyboard */; };
 		C1AD36BF20BDC3F1008D4AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AD36BE20BDC3F1008D4AB2 /* Assets.xcassets */; };
 		C1AD36C220BDC3F1008D4AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AD36C020BDC3F1008D4AB2 /* LaunchScreen.storyboard */; };
+		C1F2FE0E20BFC104007FD14E /* UserLoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F2FE0D20BFC104007FD14E /* UserLoginVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		C1AD36BE20BDC3F1008D4AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1AD36C120BDC3F1008D4AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1AD36C320BDC3F1008D4AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F2FE0D20BFC104007FD14E /* UserLoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				C18DB04C20BECB7C007F346F /* Components */,
+				C1F2FE0D20BFC104007FD14E /* UserLoginVCViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			files = (
 				C18DB05B20BF0EA5007F346F /* AppCordinator.swift in Sources */,
 				C18DB05E20BF11BA007F346F /* CordinatorId.swift in Sources */,
+				C1F2FE0E20BFC104007FD14E /* UserLoginVCViewController.swift in Sources */,
 				C18DB05920BF0E7E007F346F /* Cordinator.swift in Sources */,
 				C1AD36BA20BDC3ED008D4AB2 /* UsersVC.swift in Sources */,
 				C18DB05020BECD0C007F346F /* UsersViewModel.swift in Sources */,
